@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<style>
+  input{border: gold;}
+h1{font-style: italic;background-color: chocolate;
+}
+select{text-decoration-line: underline;
+border-color: blue;
+box-sizing: content-box;}
+   h1{text-align:left;} 
+  h2{font-display:khaki;}
+  h2{text-decoration-color: brown;}
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fcf4f2;
+    color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+}
+</style><body>
+  <form action="action.php">
+    <input type="text" placeholder="your name" > 
+    <BR><br>
+    <input type="password" placeholder="password">
+    <br><br>
+    <h2> select your class</h2>
+    <label for="101">
+    <input type="radio" value="class x" id="101" name="class"> class x
+    </label>
+    <label for="102">
+    <input type="radio" value="class xi" id="102" name="class"> class xi 
+
+    </label>
+    <br>
+    <br>
+    <h1> select fav subject</h1>
+    <label for="math">
+    <input type="checkbox" value="math" name="subject" id="101"> math
+    </label><br>
+    <label for="chem">
+      <input type="checkbox" value="chem" name="subject" id="101"> chem
+      </label><br>
+      <label for="phy">
+        <input type="checkbox" value="phy" name="subject" id="101"> phy
+        </label><br><br>
+        <h3>select your city</h3>
+        <select name="city">
+          <option value="delhi">delhi</option>
+          <option value="mumbai">mumbai</option>
+          <option value="pune" >pune</option>
+        </select>
+        <br><br>
+        <textarea name="feedback" placeholder="plz give feedback" id="101" rows="5">feedback</textarea>
+        <input type="submit" name="submit">
+  </form>
+    
+</body>
+</html>
